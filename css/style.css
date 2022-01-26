@@ -6,9 +6,18 @@
 
 .rotate {
     transform: rotate(-9deg);
-    transition: 300ms linear all;
+    transition: 500ms linear all;
 }
 
 .rotate:hover {
     transform: rotate(0)
+}
+
+.home-img .gray{
+    filter: grayscale(100);
+    transition: 300ms linear all;
+}
+
+.home-img .gray:hover {
+    filter: grayscale(0);
 }
