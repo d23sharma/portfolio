@@ -1,0 +1,14 @@
+.title{
+    display: flex;
+    justify-content: center;
+    /* transition: 300ms linear all; */
+}
+
+.rotate {
+    transform: rotate(-9deg);
+    transition: 300ms linear all;
+}
+
+.rotate:hover {
+    transform: rotate(0)
+}
